@@ -1,0 +1,17 @@
+#!/bin/bash - p
+
+clear
+
+cd  ~/Desktop/DUH_NO/src/main/java/net/greg/examples/salient/
+javac -cp . MutatorClass.java ReferentClient.java
+
+
+cd ~/Desktop/DUH_NO/src/main/java/
+java net.greg.examples.salient.ReferentClient
+
+
+### cd ~/Desktop/DUH_NO/src/main/java/
+### java net.greg.examples.salient.MutatorClass
+
+
+cd  ~/Desktop/DUH_NO/

@@ -1,0 +1,23 @@
+#!/bin/bash - p
+
+clear
+
+
+cd ~/Desktop/DUH_NO/src/main/java/net/greg/examples/salient/
+java BadExampleSimplistic.java ClientDriver.java
+
+
+return
+
+javac BadExampleSimplistic.java # ClientDriver.java
+javac BadExampleSimplistic.java ClientDriver.java
+
+cd src/main/java/net/greg/examples/salient/
+java BadExampleSimplistic
+
+
+cd ~/Desktop/DUH_NO/
+java  net.greg.examples.salient.BadExampleSimplistic
+#java -cp . net.greg.examples.salient.BadExampleSimplistic
+
+# java -cp . net.greg.examples.salient.ClientDriver
